@@ -1,0 +1,290 @@
+body{
+    background-color: #4718AD;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.bg{
+    background: no-repeat;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    padding-right: 12.76px;
+    color:  #4718AD;
+    padding-top: 12.76px;
+    padding-bottom: 55.38px;
+    padding-left: 22.98px;
+}
+.bgcreate{
+    background-repeat: no-repeat;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color:  #4718AD;
+    padding-top: 12.76px;
+    padding-bottom: 55.38px;
+    padding-right: 8px;
+    text-align: right;
+    background-position: right top;
+}
+.bgimg{
+    padding-top: 10.24px;
+    padding-left: 44.02px;
+    padding-right: 47.02px;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./Font/SFPRODISPLAYMEDIUM.OTF');
+}
+.formlogin{
+    max-width: 414px;
+    min-width: 414px;
+    background-repeat:no-repeat;
+    background-position: right top 56px;
+}
+.formcreate{
+    max-width: 414px;
+    min-width: 414px;
+    background-repeat:no-repeat;
+    background-position: left top 56px;
+}
+.login{
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 32px 32px 0px 0px;
+}
+.headerlogin{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    padding-top: 30px;
+    text-align: center;
+    color: #200A4D;
+}
+.headercreate{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    padding-top: 20px;
+    text-align: center;
+    color: #200A4D;
+}
+.textlogin {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    padding-top: 25px;
+    margin-left: 42px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.408px;
+    color: #200A4D;
+}
+.header{
+    padding-top: 80px;
+    position: relative;
+}
+.signup{
+    padding-top: px;
+}
+.img{
+    padding-left: 20.02px;
+    position: relative;
+    
+}
+.headertext{
+    font-family: 'SF Pro Display'; 
+    max-width: 107px; 
+    max-height: 58px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-left: 36px;
+    padding-bottom: 49px;
+}
+.headertextright{
+    font-family: 'SF Pro Display'; 
+    max-width: 107px; 
+    max-height: 58px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-left: 36px;
+    padding-bottom: 49px;
+    text-align: center;
+    margin-left: 243px;
+}
+.boxlogin{
+    margin-left: 20px;
+    height: 20px;
+    width: 325px;
+    color: #200A4D;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+}
+.boxlogin input{
+    border-bottom: 1px solid rgba(60, 60, 67, 0.36);;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.textunderbox{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: right;
+    padding-top: 15px;
+    margin-right: 23px;
+    margin-bottom: 12px;
+    color: rgba(32, 10, 77, 0.6);
+    text-decoration: none;
+}
+.boxbutton{ 
+    background: linear-gradient(94.71deg, #8658E8 0%, #4718AD 111.44%);
+    border-radius: 10px 10px 0px 10px;
+    border: none;
+    width: 83%;
+    margin-left: 36px;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+}
+.boxbutton a{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 2px;
+    display: flex;
+    color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 122px;
+}
+.loginwith{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 28px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: rgba(32, 10, 77, 0.6);
+    text-decoration: none;
+}
+.signupwith{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 28px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: rgba(32, 10, 77, 0.6);
+    text-decoration: none;
+}
+.borderleft{
+    background: #FFFFFF;
+    border: 1px solid rgba(32, 10, 77, 0.2);
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    margin-left: 87px;
+}
+.bordercenter{
+    background: #FFFFFF;
+    border: 1px solid rgba(32, 10, 77, 0.2);
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.borderright{
+    background: #FFFFFF;
+    border: 1px solid rgba(32, 10, 77, 0.2);
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    margin-right: 87px;
+}
+.col-wrap {
+    display: table; 
+    width: 100%; 
+}
+
+.col {
+    display: table-cell;
+}
+.col:nth-child(even){
+    background-color: none;
+}
+.col:nth-child(odd){
+    background-color: none;
+}
+img{
+    margin-top: 23px;
+    margin-left: 23px; 
+}
+.account{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(32, 10, 77, 0.6);
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.createaccount{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(32, 10, 77, 0.6);
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.Services{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(32, 10, 77, 0.6);
+    padding-top: 5px;  
+}
+
+
+
