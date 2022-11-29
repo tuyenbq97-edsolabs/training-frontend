@@ -1,0 +1,23 @@
+{
+  "name": "npmjs",
+  "version": "1.0.0",
+  "main": "jsnpm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LuongHung",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungpppy/name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hungpppy/name/issues"
+  },
+  "homepage": "https://github.com/hungpppy/name#readme",
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "numeral": "^2.0.6"
+  }
+}
