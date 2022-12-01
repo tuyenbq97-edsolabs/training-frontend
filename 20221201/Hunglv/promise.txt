@@ -1,15 +1,8 @@
--Promise là đại diện cho một giá trị không nhất thiết phải biết khi lời hứa được tạo. 
-nó cho phép bạn liên kết các trình xử lý với giá trị thành công cuối cùng hoặc lý do thất bại của hành động không đồng bộ. 
-điều này cho phép các phương thức không đồng bộ trả về các giá trị giống như các phương thức đồng bộ: thay vì ngay lập tức trả về giá trị cuối cùng,
-phương thức không đồng bộ trả về một lời hứa cung cấp giá trị tại một thời điểm nào đó trong tương lai.
-bất đồng bộ có nghĩa là câu lệnh sau phải đợi câu lệnh trước hoàn thành.
-Dùng để làm:
-+Promise được sử dụng để xử lý các hoạt động bất đồng bộ trong JavaScript
-Chúng dễ quản lý khi xử lý nhiều hoạt động bất đồng bộ trong đó các lệnh callback có thể tạo callback-hell lại dẫn đến code không thể quản lý được.
-công dụng
-+Promise hỗ trợ bắt lỗi dễ hơn callback
-+Xử lý bất đồng bộ tốt hơn
-sự khác nhau đồng bộ và bất đồng bộ:
-+Đồng bộ hay chính xác là xử lý đồng bộ là code sẽ được chạy tuần tự theo trình tự đã viết sẵn từ trên xuống dưới, 
-code bên dưới chỉ chạy khi code ở bên trên đã chạy xong và trả về kết quả
-+Bất đồng bộ là các đoạn code ở phía dưới có thể chạy dù code bên trên chưa thực thi và trả về kết quả .
+promise là sinh ra dùng để sinh ra xử lý những khi sảy ra bất đồng bộ  
+để tạo ra promise sẽ sử dụng từ khóa "new" với  promise => chuyền vào một executor function
+sẽ nhận được 2 tham số (khi thành công sẽ  resolve (thành công),khi logic thất bại reject(that bai)
+và khi sử dung promise thì sẽ sử dụng .then , .catch 
+và khi bị resolve thì sẽ dùng .then
+khi bị resolve sẽ dung .catch
+Đồng bộ  là xử lý đồng bộ là code sẽ được chạy tuần tự theo trình tự đã viết sẵn từ trên xuống dưới
+Bất đồng bộ là các đoạn code ở phía dưới có thể chạy dù code bên trên chưa thực thi và trả về kết quả
