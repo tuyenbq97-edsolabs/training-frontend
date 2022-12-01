@@ -1,7 +1,7 @@
-const myPromise = new Promise(function(myResolve, myReject) {
-  setTimeout(function(){ myResolve("Hello world"); }, 3000);
+const Promise = new Promise(function(Resolve, myReject) {
+  setTimeout(function(){ Resolve("Hello world"); }, 3000);
 });
 
-myPromise.then(function (value) {
+Promise.then(function (value) {
     document.getElementById("demo").innerHTML = value;
 });
