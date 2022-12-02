@@ -1,0 +1,10 @@
+promise là sinh ra dùng để sinh ra xử lý những khi sảy ra bất đồng bộ.  
+để tạo ra promise sẽ sử dụng từ khóa "new" với  promise => chuyền vào một  constarctor Executor sẽ nhận được 2 tham số (khi logic thành công sẽ là  resolve (thành công),khi logic thất bại reject(thất bại).
+Khi sử dung promise thì sẽ sử dụng .then , .catch 
++ khi bị resolve thì sẽ dùng .then
++ khi bị resolve sẽ dung .catch
+- Khi đối tượng promise được tạo ra sử dụng các phương thức 
++(.then()  nhận callback function được thực thi khi res thành công ( có thể .then()  nhiều lần )).
++(. catch()  nhận callback function được thực thi khi rej ( tất cả .then() ở trên lỗi thì đều)).
+Đồng bộ  là xử lý đồng bộ là code sẽ được chạy tuần tự theo trình tự đã viết sẵn từ trên xuống dưới.
+Bất đồng bộ là các đoạn code ở phía dưới có thể chạy dù code bên trên chưa thực thi và trả về kết quả.

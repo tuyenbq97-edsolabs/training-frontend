@@ -1,8 +1,0 @@
-promise là sinh ra dùng để sinh ra xử lý những khi sảy ra bất đồng bộ  
-để tạo ra promise sẽ sử dụng từ khóa "new" với  promise => chuyền vào một executor function
-sẽ nhận được 2 tham số (khi thành công sẽ  resolve (thành công),khi logic thất bại reject(that bai)
-và khi sử dung promise thì sẽ sử dụng .then , .catch 
-và khi bị resolve thì sẽ dùng .then
-khi bị resolve sẽ dung .catch
-Đồng bộ  là xử lý đồng bộ là code sẽ được chạy tuần tự theo trình tự đã viết sẵn từ trên xuống dưới
-Bất đồng bộ là các đoạn code ở phía dưới có thể chạy dù code bên trên chưa thực thi và trả về kết quả
