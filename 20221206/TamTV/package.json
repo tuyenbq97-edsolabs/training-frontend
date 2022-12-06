@@ -1,0 +1,16 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "starter": "test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "numeral": "^2.0.6"
+  }
+}
