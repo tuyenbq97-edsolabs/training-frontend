@@ -6,9 +6,6 @@ fetch(apiUrl)
   .then(function (data) {
     
     const object = data.data;
-
-    console.log(object);
-
     
     document.getElementById("title").innerHTML = object.title;
 
