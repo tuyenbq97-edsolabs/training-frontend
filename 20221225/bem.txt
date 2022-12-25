@@ -1,0 +1,12 @@
+- BEM nghĩ là :(Block - Element - Modifier)
+    - Ý nghĩa:
+        - Block: Khối
+        - Element: Thành phần trong khối
+        - Modifier: Bổ sung ý nghĩa cho block hoặc element (viết thêm 1 class, để bổ sung ý nghĩa)
+    - Cú pháp
+        - .block
+        - .block__element
+        - .block—modifier
+        - .block__element—modifier
+        
+  Nếu có nhiều block lồng nhau, có thể tách các block con,cháu thành block độc lập.
