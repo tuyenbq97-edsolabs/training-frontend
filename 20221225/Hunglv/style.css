@@ -1,0 +1,30 @@
+/* BEM */
+.card{
+background: linear-gradient(180deg, #E5B2CA 0%, #CD82DE 100%);
+width: 414px;
+height: 896px;
+}
+.card__heading{
+color: #FFFFFF;
+font-size: 34px;
+font-weight: 800;
+line-height: 41px;
+letter-spacing: 0px;
+text-align: center;
+}
+.card__desc{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: rgba(255, 255, 255, 0.75);
+}
+.card__btn{
+font-size: 24px;
+font-weight: 800;
+line-height: 29px;
+text-align: center;
+color:#FFFFFF
+}
