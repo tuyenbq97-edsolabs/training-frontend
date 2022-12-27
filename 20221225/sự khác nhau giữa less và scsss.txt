@@ -1,0 +1,18 @@
+sass  nó bổ sung các tính năng đặc biệt như các biến (variables), quy tắc lồng nhau (nested rules) 
+và mixins vào CSS 
+Mục đích sass viết css hiểu quả và đơn giản...
+- Dễ dàng quản lý code CSS
+- Tương thích hoàn toàn với mọi phiên bản CSS
+- thuận tiện cho bảo trì và sửa chữa.
++ Có thêm phần mở rộng ngôn ngữ như các biến (variable), nesting, mixins...
++ Nhiều chức năng thao tác với màu sắc và các giá trị khác.
++ Định dạng tốt và dễ tùy chỉnh.
+lesscss cũng như sass nó cũng cho viết code đơn giản và 
+ngắn gọn cũng dễ quản lý các code css...
+
+khác nhau less sử dụng @,#
+còn sass dùng $
+cách cài đặt sass là:
+npm i sass
+cách cài đặt less là :
+npm i less
